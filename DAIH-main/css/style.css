@@ -16240,14 +16240,17 @@ img {
 }
 
 /* Hide the calendar icon inside the "Book A Space" button on mobile */
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
   .menu_side_area .btn-main i.fa-calendar,
   .menu_side_area .btn-main i.fa.fa-calendar {
     display: none !important;
   }
 
   /* Remove any leftover spacing */
-  .menu_side_area .btn-main span {
+  /*.menu_side_area .btn-main span {
     margin-left: 0 !important;
   }
 }
+*/
+
+#section-why-choose-us .row.g-4 > [class*="col-"] { margin-bottom: 0; }
